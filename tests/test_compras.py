@@ -2,7 +2,7 @@ from src.compras import calcular_total, producto_mas_vendido
 
 def test_calcular_total():
   compras = [
-    {"producto" : "arroz", "cantidad": 2, "precio": 1000}
+    {"producto" : "arroz", "cantidad": 2, "precio": 1000},
     {"producto" : "fideos", "cantidad": 3, "precio": 500}
   ]
 
@@ -10,7 +10,7 @@ def test_calcular_total():
 
 def test_producto_mas_vendido():
   compras = [
-    {"producto" : "arroz", "cantidad": 2, "precio": 1000}
+    {"producto" : "arroz", "cantidad": 2, "precio": 1000},
     {"producto" : "fideos", "cantidad": 5, "precio": 500}
   ]
 

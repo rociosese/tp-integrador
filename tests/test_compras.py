@@ -31,7 +31,7 @@ def test_un_solo_producto():
     {"producto" : "leche", "cantidad": 1, "precio": 1000}
   ]
 
-  assert calcular_total(compras) == 1000
+  assert calcular_total(compras) == 9999
 
 def test_producto_mas_vendido_unico():
   compras = [

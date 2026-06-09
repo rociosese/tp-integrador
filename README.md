@@ -7,3 +7,7 @@ Proyecto de Integración continua utilizando:
 - Unit Tests
 
 Rocío Sese
+
+# Integración Continua
+
+El proyecto utiliza GitHub Actions para ejecutar automáticamente los tests cada vez que se realiza un push o un Pull Request.

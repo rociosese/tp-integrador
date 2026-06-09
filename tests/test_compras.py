@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.compras import calcular_total, producto_mas_vendido
 
 def test_calcular_total():
